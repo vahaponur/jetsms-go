@@ -1,0 +1,45 @@
+############################
+# Project specific
+############################
+
+# Local integration tests (may contain sensitive data)
+tests/
+
+# API documentation / specs
+documents/
+
+############################
+# Go build artifacts
+############################
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Coverage files
+*.out
+coverage.*
+
+############################
+# Modules / vendors / tools
+############################
+
+vendor/
+bin/
+dist/
+
+############################
+# IDE / editor
+############################
+
+.idea/
+.vscode/
+*.swp
+*.swo
+
