@@ -126,15 +126,5 @@ for _, o := range origResp.Originators {
 }
 ```
 
-## Testler
 
-- Entegrasyon testleri `tests/` klasöründe ve `.gitignore` içinde olduğu için commit edilmiyor.
-- `tests/sms_send_test.go` içinde kendi `testUsername`, `testPassword`, `testOriginator`, `testRecipient` (ve istersen `testRecipient2`) değerlerini doldurup:
-
-```bash
-go test ./tests -run TestSend
-```
-
-komutuyla gerçek SMS göndererek fonksiyonları test edebilirsin.  
-Bu testler, yanlışlıkla CI/CD’de koşup SMS fırlatmamak için özel dizinde tutuluyor.
 
