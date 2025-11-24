@@ -8,6 +8,10 @@ tests/
 # API documentation / specs
 documents/
 
+# Local release tooling (kept only on developer machines)
+scripts/
+Makefile
+
 ############################
 # Go build artifacts
 ############################
@@ -42,4 +46,3 @@ dist/
 .vscode/
 *.swp
 *.swo
-
